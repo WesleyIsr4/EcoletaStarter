@@ -1,0 +1,94 @@
+@media (max-width: 900px){
+  #page-home {
+    background-position-x: 70vw;
+  }
+  #page-home .content{
+    align-items: center;
+    text-align: center;
+  }
+
+  #page-home header a {
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  #page-home main {
+    align-items: center;
+  }
+
+  #page-search-results .cards {
+    grid-template-columns: 1fr;
+  }
+
+  #page-search-resultas .cards img {
+    height: 200px;
+  }
+
+  #page-create-point .field-group {
+    flex-direction: column-reverse;
+  }
+
+  #page-create-point .field-group .field + .field {
+    margin-left: 0;
+  }
+  
+}
+
+@media(max-width: 1700px){
+  #page-home {
+    background-position-x: 40vw;
+  }
+}
+
+@media(max-height: 760px){
+  #page-home {
+    background-position-y: 200px;
+  }
+
+  @media(max-width: 320px){
+    #page-home main h1 {
+      font-size: 40px;
+    }
+
+    #page-home main p {
+        font-size: 16px;
+        top: 20px;
+        line-height: 20px;
+    }
+
+    #page-home main a {
+      width: 100%;
+      height: 52px;
+      max-width: 360px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      margin-top: 40px;
+      background: var(--prime-color);
+      transition: 400ms;
+      color: white;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+      ;
+    }
+
+    #page-home main a span {
+      width: 52px;
+      height: 52px;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      background-color: rgba(0,0,0,0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media(max-width: 850px){
+    #page-home {
+      height: 100vh;
+      background: url('../assets/home-background.svg') no-repeat;
+      background-position: 60vw bottom;
+    }
+  }
+}
