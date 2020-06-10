@@ -24,7 +24,7 @@ O projeto tem como finalidade **estabelecer uma conexão** entre **empresas e/ou
  - Maykbrito - [https://github.com/maykbrito](https://github.com/maykbrito)
  - RocketSeat  - [https://rocketseat.com.br/](https://rocketseat.com.br/)
 
-## Feito com  ❤️  por  Wesley Israel
+## Feito por  Wesley Israel
 
 ## 📝  Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Rocketseat/nlw-01-starter/blob/master/LICENSE.md) para mais detalhes.
